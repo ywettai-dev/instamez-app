@@ -5,11 +5,9 @@
 <div class="row">
     <% instaData.forEach( data => { %>
         <div class="insta-pic col-sm-4">
-        
             <a href="<%= data.link %>" target="_blank">
                 <img src="<%= data.images.standard_resolution.url %>" class="img-responsive">
             </a>
-
             <div class="insta-bar">
                 <div class="insta-likes">
                     <i class="far fa-heart"></i> <%= data.likes.count %>
@@ -19,12 +17,7 @@
                     <i class="far fa-comment-alt"></i> <%= data.comments.count %>
                 </div>
             </div>
-
-           
-        
         </div>
-
-        
     <% }) %>
 </div>
 
