@@ -1,0 +1,29 @@
+{
+  "name": "instamez-app",
+  "version": "1.0.0",
+  "description": "A tiny instagram app for me.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywettai-dev/instamez-app.git"
+  },
+  "keywords": [
+    "intagram",
+    "instamez"
+  ],
+  "author": "ywettai-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywettai-dev/instamez-app/issues"
+  },
+  "homepage": "https://github.com/ywettai-dev/instamez-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "instagram-node": "^0.5.8"
+  }
+}
