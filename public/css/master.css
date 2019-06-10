@@ -23,11 +23,17 @@ body {
 }
 
 .insta-pic img {
-    padding: 5px;
+    padding: 10px;
     border-radius: 0;
-    box-shadow: 0 0 5px rgb(0, 0, 0, 0.8);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.19);
     width: 100%;
     height: 100%;
+    opacity: 0.82;
+}
+
+.insta-pic img:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.23);
+    opacity: 1;
 }
 
 .insta-bar {
